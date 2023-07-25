@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set the paths to your Java programs
-java_executable="/usr/bin/java"
-load_product_cost_program="/path/to/LoadProductCost.jar"
-push_cost_changes_program="/path/to/PushCostChanges.jar"
+# java_executable="/usr/bin/java"
+load_product_cost_program="/home/udayvarma/jobs/BatchJob3/src/main/java/loadcost/LoadProductCost.java"
+push_cost_changes_program="/home/udayvarma/jobs/BatchJob3/src/main/java/pushcost/PushCostChanges.jar"
 
 # Set the paths to your files and databases
 cost_file="/path/to/CostFile.csv"
