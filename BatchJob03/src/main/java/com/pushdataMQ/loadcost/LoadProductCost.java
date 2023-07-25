@@ -20,10 +20,10 @@ public class LoadProductCost {
 
         try {
             // Load the JDBC driver (You may need to replace 'your_jdbc_driver_class' with your actual driver class)
-            Class.forName("your_jdbc_driver_class");
+            Class.forName("com.mysql.jdbc.Driver");
             
             // Establish the database connection
-            Connection connection = DriverManager.getConnection(databaseUrl, "your_db_username", "your_db_password");
+            Connection connection = DriverManager.getConnection(databaseUrl, "root", "uday");
 
             // Prepare the SQL statement for inserting product cost data
             String insertQuery = "INSERT INTO product_costs (product_name, cost) VALUES (?, ?)";
